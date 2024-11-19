@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <nav class="nav-bar">
+            <a href="index.html"><img class="logo" src="logo.png" alt="Seantinel Logo"></a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="nav-content" id="nav-content">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button><a href="contact.html">Schedule a Demo</a></button>
+        </nav>
+    </section>
+
+    <section id="contact-section">
+
+        <div class="contact-head">
+            <h1>Join Us in Shaping the Future of Sustainable Fishing</h1>
+        </div>
+
+        <form action="">
+            <div class="contact-container">
+                <div class="fname">  
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname">
+                </div>  
+                <div class="lname"> 
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname">
+                </div>  
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="subject">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                </div>
+                <div class="message">
+                    <label for="message">Leave me a message</label>
+                    <input type="text" id="message">
+                </div>
+                <div class="bttn">
+                <button>SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="connect">
+            <h1>Connect with Seantinel</h1>
+            <p>Join us in our mission for sustainable fishing.</p>
+
+            <div class="connect-container">
+                <div class="bg-icon"><i class='bx bxs-map'></i></div>
+                <div>
+                    <h2>Our Address</h2>
+                    <p>New Visayas, Panabo City</p>
+                </div>
+            </div>
+
+            <div class="connect-container">
+                <div class="bg-icon"><i class='bx bxs-phone-call'></i></div>
+                <div>
+                    <h2>Call Us</h2>
+                    <p class="number">+63 976 213 1386</p>
+                </div>
+            </div>
+
+            <div class="connect-container">
+                <div class="bg-icon"><i class='bx bxl-gmail'></i></div>
+                <div>
+                    <h2>Email Us</h2>
+                    <p>seantinel@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="socials">
+            <h1>Socials</h1>
+            <div>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.linkedin.com/company/seantinel/about/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/daaaaaaaaar3/"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <p>© <span class="number">2024</span> Seantinel. Pioneering Sustainable Fishing Technologies.</p>
+        </div>
+
+    </footer>
+
+    <script src="functions.js">
+    </script>
+</body>
+</html>
